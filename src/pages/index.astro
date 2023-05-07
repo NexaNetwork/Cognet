@@ -4,9 +4,9 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Lunar-Soft">
 	<nav class=" text-white">
-		<a class="text-white float-right hover:text-primary">Docs</a>
-		<a class="text-white float-right hover:text-primary">Proxys</a>
-		<img src="/logo.svg" alt="logo"class="w-28 p-2 bg-green-300">
+		<a class="text-white float-right mt-10 pl-2 pr-1 hover:text-primary">Proxys</a>
+		<a class="text-white float-right mt-10 hover:text-primary">Docs</a>
+		<img src="/logo.svg" alt="logo"class="w-28 p-2" id="logo">
 	</nav>
 </Layout>
 
@@ -19,6 +19,14 @@ import Layout from '../layouts/Layout.astro';
 
 	a:hover{
 		cursor: pointer;
+	}
+
+	#logo{
+		transition: transform 1s;
+	}
+
+	#logo:hover{
+		transform:rotate(360);
 	}
 
 
