@@ -4,7 +4,9 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Lunar-Soft">
 	<nav class="inset-y-0 text-white">
-		<img src="/logo.svg" alt="logo"class="w-28 sm:8 md:16 lg:w-40">
+		<img src="/logo.svg" alt="logo"class="w-28 p-2 ">
+		<a class="text-white hover:text-primary">Docs</a>
+		<a class="text-white">Proxys</a>
 	</nav>
 </Layout>
 
@@ -12,6 +14,11 @@ import Layout from '../layouts/Layout.astro';
 	html,body{
 		background-color: black;
 		font-family: Poppins;
+		font-weight: bold;
+	}
+
+	a:hover{
+		cursor: pointer;
 	}
 </style>
 
