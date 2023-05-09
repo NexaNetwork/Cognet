@@ -1,7 +1,7 @@
 # Project Title
-Short description of your project and what it does 
+Lunar Soft, A Service that creates and shares proxies for people like you.our motive for this is to end internet censorship and show the beauty of the internet
 
-## Getting Started Instructions on how to set up your project locally
+# Getting Started Instructions on how to set up your project locally
 
 ## Prerequisites Any software or tools that need to be installed before running the project 
 
