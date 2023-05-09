@@ -1,16 +1,28 @@
-# Project Title
+# Lunar Soft
 Lunar Soft, A Service that creates and shares proxies for people like you.our motive for this is to end internet censorship and show the beauty of the internet
 
-# Getting Started Instructions on how to set up your project locally
+# Contributing
+If you want to contribute to Lunar Soft then your in the right place!
 
-## Prerequisites Any software or tools that need to be installed before running the project 
+Contributing is simple:
 
-## Installation Step-by-step instructions on how to install and run the project 
+1. Git Clone the project
+```
+git clone https://github.com/FlyNightSky/Lunar-Soft.git
+```
+2. Go to the page where you want to contribute to then edit the page to your liking
+3. create a request to add these changes. 
+4. If they get accepted then your done
 
-## Usage Detailed instructions on how to use the project 
+If you want more information on contributing then go to our discord ( discord HERE )
 
-## Contributing Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
+Thank you to all our contributors an supporters!
 
-## License [Insert license name] 
 
-## Acknowledgments Thanks to anyone who has contributed or offered advice on your project.
+
+## Credit
+
+The proxys on this site where made using a customized Titanium Network proxy!
+
+
+
