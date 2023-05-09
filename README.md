@@ -1,5 +1,5 @@
  
-# <img src="https://github.com/FlyNightSky/Lunar-Soft/assets/118761018/bf253daa-d926-400d-80c4-1a307a8a58b9" width="200" />Lunar Soft
+# <img src="https://github.com/FlyNightSky/Lunar-Soft/assets/118761018/bf253daa-d926-400d-80c4-1a307a8a58b9" width="50" />Lunar Soft
 Lunar Soft, A Service that creates and shares proxies for people like you.our motive for this is to end internet censorship and show the beauty of the internet
 
 # Contributing
