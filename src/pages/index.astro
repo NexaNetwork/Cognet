@@ -3,13 +3,14 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Lunar Soft">
-	<nav class=" text-white z-50">
-		<a href='https://github.com/FlyNightSky/Lunar-Soft'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
-		<a class="text-white float-right mt-10 pl-5 pr-2 hover:text-primary">Proxys</a>
-		<a class="text-white float-right mt-10 hover:text-primary">Docs</a>
-		<img src="/logo.svg" alt="logo"class="w-28 p-2" id="logo">
-	</nav>
-	<div class="flex justify-center">
+	<nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-[.2rem] h-[6.5rem] text-white">
+  <a href='https://github.com/FlyNightSky/Lunar-Soft'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
+  <a class="text-white float-right mt-10 pl-5 pr-2 hover:text-primary">Proxys</a>
+  <a class="text-white float-right mt-10 hover:text-primary">Docs</a>
+  <img src="/logo.svg" alt="logo"class="w-28 p-2" id="logo">
+</nav>
+
+	<div class="flex justify-center pt-[8rem]">
 		<h1 class="text-primary text-3xl h-6">Lunar Soft</h1>
 		<h1 class="text-slate-500 text-1xl my-9 mr-3 float-left absolute">Proxy Service</h1>
 	</div>
@@ -30,9 +31,10 @@ import Layout from '../layouts/Layout.astro';
   <img src="/img1.svg" class="w-80 z-0 ">
 
 </div>
+</div>
+<div class="flex text-white text-1xl justify-center mt-[28rem] text-2xl lg:mt-[13rem] xl:mt-[13rem]">
+<h1>Stats</h1>
 
-		
-  
 </div>
 </Layout>
 
