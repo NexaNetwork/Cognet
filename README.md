@@ -23,7 +23,7 @@ Thank you to all our contributors and supporters!
 
 ## Credit
 
-The proxies on Cognet were created using a customized Titanium Network proxy!
+The proxies on Cognet were created using a customized Titanium Network & Fog Network proxy!
 
 
 
