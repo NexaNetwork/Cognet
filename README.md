@@ -1,5 +1,6 @@
  
-# <img src="https://cognet.vercel.app/logo.png" width="70" />Cognet (Offical Release)
+## <img src="https://cognet.vercel.app/logo.png" width="70" />
+# Cognet (Offical Release)
 Cognet, a service that creates and shares proxies for people like you. Our motivation is to end internet censorship and instead show the beauty of the internet
 
 # Contributing
