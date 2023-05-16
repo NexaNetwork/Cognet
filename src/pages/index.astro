@@ -43,10 +43,13 @@ import Layout from '../layouts/Layout.astro';
 <h1 class="lg:text-3xl lg:text-2xl">Privacy</h1>
 	<div>
 		<img src="/img2.svg" class="w-[20rem]">
+		<div class="blur-[87px]">
 		<div class="flex items-center justify-center py-24 flex bg-green-500 absolute">
-   <div class="w-52 h-52 bg-lightRed rounded-full"></div>
-   <div class="w-52 h-52 bg-darkPurple rounded-full"></div>
-   <div class="w-52 h-52 bg-lightBlue rounded-full"></div>
+		 <div class="w-52 h-52 bg-darkPurple rounded-full absolute ml-[10rem]"></div>
+   <div class="w-52 h-52 bg-lightBlue rounded-full absolute mt-[5em] ml-[5rem]"></div>
+	    <div class="w-52 h-52 bg-lightRed rounded-full absolute pl-16 mr-[1em]"></div>
+			</div>
+
 </div>
 	</div>
 
@@ -79,6 +82,8 @@ import Layout from '../layouts/Layout.astro';
 	.btn1{
 		@apply p-2 mt-5 bg-primary rounded-t-lg rounded-l-lg rounded-r-lg  shadow-secondary-200 hover:opacity-75 shadow-lg lg:p-3 md:p-3 xl:p-3;
 	}
+
+	
 
 
 </style>
