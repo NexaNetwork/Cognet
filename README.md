@@ -1,9 +1,9 @@
  
-# <img src="https://github.com/FlyNightSky/Lunar-Soft/assets/118761018/bf253daa-d926-400d-80c4-1a307a8a58b9" width="20" />Lunar Soft (Offical Release)
+# <img src="https://github.com/FlyNightSky/Lunar-Soft/assets/118761018/bf253daa-d926-400d-80c4-1a307a8a58b9" width="20" />Cognet (Offical Release)
 Lunar Soft, a service that creates and shares proxies for people like you. Our motivation is to end internet censorship and instead show the beauty of the internet
 
 # Contributing
-If you want to contribute to Lunar Soft, you've come to the right place!
+If you want to contribute to Cognet, you've come to the right place!
 
 Contributing is simple:
 
@@ -23,7 +23,7 @@ Thank you to all our contributors and supporters!
 
 ## Credit
 
-The proxies on Lunar Soft were created using a customized Titanium Network proxy!
+The proxies on Cognet were created using a customized Titanium Network proxy!
 
 
 
