@@ -1,6 +1,6 @@
  
-# <img src="https://github.com/FlyNightSky/Lunar-Soft/assets/118761018/bf253daa-d926-400d-80c4-1a307a8a58b9" width="20" />Cognet (Offical Release)
-Lunar Soft, a service that creates and shares proxies for people like you. Our motivation is to end internet censorship and instead show the beauty of the internet
+# <img src="https://cognet.vercel.app/logo.png" width="20" />Cognet (Offical Release)
+Cognet, a service that creates and shares proxies for people like you. Our motivation is to end internet censorship and instead show the beauty of the internet
 
 # Contributing
 If you want to contribute to Cognet, you've come to the right place!
@@ -9,7 +9,7 @@ Contributing is simple:
 
 1. Git Clone the project
 ```
-git clone https://github.com/FlyNightSky/Lunar-Soft.git
+git clone https://github.com/FlyNightSky/Cognet.git
 ```
 2. Navigate to the page you want to contribute to, then edit the page as you wish
 3. Create a request to add these changes.
