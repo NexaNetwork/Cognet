@@ -27,8 +27,8 @@ The proxies on Cognet were created using a customized Titanium Network & Fog Net
 
 # Links
 
-<a href="cognet.vercel.app"> Cognet </a>
-<a href="https://github.com/Cognet-Network"> Cognet Network Page <img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png" width="50"/>
+<a href="cognet.vercel.app"> Cognet </a><br><br>
+<a href="https://github.com/Cognet-Network"> Cognet Network Page <img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-512.png" width="30"/><br><br>
  </a>
 <a href="streamscribe.vercel.app"> My Portfolio</a>
 
