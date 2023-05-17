@@ -41,8 +41,8 @@ import Layout from '../layouts/Layout.astro';
 </div>
 <div class="flex text-white justify-center mt-[28rem] text-2xl lg:mt-[13rem] xl:mt-[13rem]">
 <h1 class="lg:text-3xl absolute">Privacy</h1>
-	<div class=" flex justify-center absolute xl:justify-normal lg:justify-normal lg:mr-[70%] xl:mr-[70%] lg:mt-[5rem] xl:mt-[5rem]">
-		<p class=" text-center absolute text-sm w-[23rem] mb-[10%] mt-[5rem] lg:w-[35rem] xl:w-[35rem] lg:text-lg xl:text-lg lg:mt-[5rem] xl:mt-[5rem] lg:ml-[180%] xl:ml-[180%]">
+	<div class="privacy1">
+		<p class="privacy2">
 		Our Main goal with Lunar Soft  is to bring you privacy on the  internet. hence, <br><br>
 
 Lunar-Soft will NOT do any of the following:<br> 
@@ -99,6 +99,13 @@ Lunar-Soft will NOT do any of the following:<br>
 		@apply p-2 mt-5 bg-primary rounded-t-lg rounded-l-lg rounded-r-lg  shadow-secondary-200 hover:opacity-75 shadow-lg lg:p-3 md:p-3 xl:p-3;
 	}
 
+	.privacy1{
+	@apply flex justify-center absolute xl:justify-normal lg:justify-normal lg:mr-[70%] xl:mr-[70%] lg:mt-[5rem] xl:mt-[5rem];
+	}
+
+	.privacy2{
+		@apply text-center absolute text-sm w-[23rem] mb-[10%] mt-[5rem] lg:w-[35rem] xl:w-[35rem] lg:text-lg xl:text-lg lg:mt-[5rem] xl:mt-[5rem] lg:ml-[180%] xl:ml-[180%];
+	}
 	
 
 
