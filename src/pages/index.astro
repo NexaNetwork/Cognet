@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Cognet">
+<audio id="my_audio" src="/bg.mp3" loop="loop"></audio>
 	<nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-[.2rem] h-[6.5rem] text-white overflow-hidden	">
   <a href='https://github.com/FlyNightSky/cognet'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
   <a class="text-white float-right mt-10 pl-5 pr-2 hover:text-primary">Proxys</a>
@@ -63,9 +64,15 @@ Lunar-Soft will NOT do any of the following:<br>
 		
 </div>
 
-<div class="flex justify-center text-white">
-	<h1 class="text-1xl text-primary pt-[4rem] lg:text-3xl xl:text-3xl xl:pt-[3rem] lg:pt-[3rem]"> Help Contribute to Lunar Soft!<h1>
+<div class="flex justify-center text-white relative">
+
+	<h1 class="text-1xl text-primary pt-[4rem] lg:text-3xl xl:text-3xl xl:pt-[3rem] lg:pt-[3rem] absolute"> Help Contribute to Lunar Soft!
+	<h1>
+	<div class="absolute mt-[10rem]  lg:mt-[10%] xl:mt-[10%] ">
+	<div class="border-l-[.1rem] h-[15rem] border-[#FFFFFF] opacity-50 lg:h-[25rem] xl:h-[25rem]	"></div>
+	</div>
 </div>
+
 
 
 <footer class="mt-[100%] pt-[10rem] flex justify-center">
