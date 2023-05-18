@@ -70,7 +70,14 @@ Lunar-Soft will NOT do any of the following:<br>
 	<h1 class="text-1xl text-primary pt-[4rem] lg:text-3xl xl:text-3xl xl:pt-[3rem] lg:pt-[3rem] absolute"> Help Contribute to Lunar Soft!
 	<h1>
 	<div class="absolute mt-[10rem]  lg:mt-[10%] xl:mt-[10%] ">
-	<div class="border-l-[.1rem] h-[15rem] border-[#FFFFFF] opacity-50 lg:h-[25rem] xl:h-[25rem]	"></div>
+	<div class="border-l-[.1rem] h-[18rem] border-[#FFFFFF] lg:h-[25rem] xl:h-[25rem] text-white text-center"> 
+			<p class="pt-5 px-2 w-fit text-1xl lg:pt-16 xl:pt-16 lg:text-2xl xl:text-2xl lg:w-[33rem] xl:w-[33rem] lg:px-5 xl:px-5">
+				Join these of people to help contribute to our service!<br><br>
+
+You even get perks when you contribute such as a discord role and much more!
+			</p>	
+			<a class="privacybtn"><button class="pt-5"> Contribute</button></a>
+	</div>
 	</div>
 </div>
 
@@ -86,6 +93,13 @@ Lunar-Soft will NOT do any of the following:<br>
 
 </div>
 </footer>
+<script>
+playMusic()
+window.onload = function playMusic() {
+    document.getElementById("my_audio").play();
+}
+
+</script>
 <script src="../Scripts/music.js"></script>
 </Layout>
 
@@ -114,6 +128,10 @@ Lunar-Soft will NOT do any of the following:<br>
 
 	.btn1{
 		@apply p-2 mt-5 bg-primary rounded-t-lg rounded-l-lg rounded-r-lg  shadow-secondary-200 hover:opacity-75 shadow-lg lg:p-3 md:p-3 xl:p-3;
+	}
+
+	.privacybtn{
+		@apply p-3 mt-[1rem] bg-primary rounded-full shadow-secondary-200 hover:opacity-75 shadow-lg ;
 	}
 
 	.privacy1{
