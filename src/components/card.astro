@@ -1,0 +1,11 @@
+---
+interface Props {
+  url?: string
+  img?: string
+  title?: string
+  footer: string
+  children?: HTMLElement | HTMLElement[]
+}
+
+const { url = '#', img = '/banner.svg', title = 'Default title', footer = 'Your name' } = Astro.props
+<h2>{greeting}, {name}!</h2>
