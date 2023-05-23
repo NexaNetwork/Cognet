@@ -10,9 +10,13 @@ import Layout from "../layouts/Layout.astro";
         <a href="./"><img src="/logo.png" alt="logo"class="w-24 pb-5 pt-5 px-3" id="logo"></a>
     </nav>
 
-    <div class="grid h-screen place-items-center text-white text-1xl lg:text-2xl xl:text-2xl">
-        Hello User!, This Page is not yet finished :(<br><br>
-    </div>
+    <div class="flex items-center justify-center h-screen">
+    
+	<div class="text-white font-bold rounded-lg border shadow-lg p-10">
+		This page is not yet finished :(
+	</div>
+	
+  </div>
 
 
 </Layout>
@@ -24,4 +28,8 @@ import Layout from "../layouts/Layout.astro";
         font-weight: bold;
     
     }
+
+    .btn1{
+		@apply p-2 mt-5 bg-docsRed rounded-t-lg rounded-l-lg rounded-r-lg  shadow-secondary-200 hover:opacity-75 shadow-lg lg:p-3 md:p-3 xl:p-3;
+	}
 </style>
