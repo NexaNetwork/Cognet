@@ -1,10 +1,11 @@
 ---
   import Layout from '../layouts/Layout.astro';
+  import Card from '../components/Card.astro'
 ---
 
   <Layout title="Proxys">
   <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-[.2rem] h-[6.5rem] text-white overflow-hidden	">
-  <a href='https://github.com/FlyNightSky/cognet'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
+  <a href='https://github.com/Cognet-Network/Cognet'><img src="github.svg" alt="githubLogo" class="float-right mt-7 mx-4 w-12" id="github"></a>
   <a href="./proxys" class="text-white float-right mt-10 pl-5 pr-2 hover:text-primary">Proxys</a>
   <a href="./docs" class="text-white float-right mt-10 hover:text-primary">Docs</a>
   <a href="./"><img src="/logo.png" alt="logo"class="w-24 pb-5 pt-5 px-3" id="logo"></a>
@@ -14,24 +15,55 @@
       <h1 class="  text-slate-500 text-1xl mr-3 float-left absolute">Page Were you can find all our proxys!</h1>
       </div>
       
+    <div class="grid flex justify-center absolute h-screen w-full text-white mt-[5rem] xl:grid-cols-4 gap-1 lg:grid-cols-4 gap-1">
+    
 
-   <div class=" ml-[.5rem] mt-[2rem] max-w-sm bg-red border border-gray-200 rounded-lg shadow mr-[.5rem]  lg:ml-[2rem] xl:ml-[2rem] lg:mt-[3rem] xl:mt-[3rem]">
-    <a href="https://web.ngms.place/">
-        <img class="rounded-t-lg" src="/banner1.svg" alt="" />
-    </a>
-    <div class="p-5">
-        <a href="https://web.ngms.place/">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">web.ngms.place</h5>
-        </a>
-        <p class="mb-3 font-normal text-gray-400">Use web.ngms.place right away to access a website proxy that utilizes ultraviolet and is very simplistic and right to the point!<br><br>
-        Proxy By Nonreai
-        </p>
-        <a onclick="window.open('https://web.ngms.place/')" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Go to
-            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-        </a>
+      <Card
+      img="/banner1.svg",
+      body="Use Linux proxy right away to access a website proxy that is very simplistic and runs Holy Unblocker!",
+      title="Linux",
+      by="Detox Network",
+      open="console.log('true'); var url = 'https://linuxtutors.xyz/';var win = window.open();win.document.body.style.margin = '0';win.document.body.style.height = '100vh';win.document.title = 'Proxy';var iframe = win.document.createElement('iframe');iframe.style.border = 'none';iframe.style.width = '100%';iframe.style.height = '100%';iframe.style.margin = '0';iframe.src = url;win.document.body.appendChild(iframe);"
+      />
+
+        <Card
+      img="/banner1.svg",
+      body="Use Velocity proxy right away to access a website proxy that is very simplistic and runs on hammer head to the point!",
+      title="Velocity Proxy",
+      by="Detox Network",
+      open="console.log('true'); var url = 'https://velocity.radon.games/';var win = window.open();win.document.body.style.margin = '0';win.document.body.style.height = '100vh';win.document.title = 'Proxy';var iframe = win.document.createElement('iframe');iframe.style.border = 'none';iframe.style.width = '100%';iframe.style.height = '100%';iframe.style.margin = '0';iframe.src = url;win.document.body.appendChild(iframe);"
+      />
+
+       <Card
+      img="/banner1.svg",
+      body="Use 360 proxy right away to access a website proxy that is very simplistic and runs on UV to the point!",
+      title="360 Proxy",
+      by="Detox Network",
+      id="360"
+      />
+
+      <Card
+      img="/banner1.svg",
+      body="Use v89 proxy right away to access a website proxy that is very simplistic and runs on Incognito to the point!",
+      title="v89 Proxy",
+      by="Detox Network",
+      id="v89"
+      />
+
+      <Card
+      img="/banner1.svg",
+      body="Use v89 proxy right away to access a website proxy that is very simplistic and runs on Incognito to the point!",
+      title="v89 Proxy",
+      by="Detox Network",
+      id="v89"
+      />
+
+      
+
+      
+        
     </div>
-</div>
+  
 
 
   </Layout>
