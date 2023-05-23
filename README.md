@@ -9,7 +9,7 @@ Contributing is simple:
 
 1. Git Clone the project
 ```
-https://github.com/Cognet-Network/Cognet.git
+https://github.com/FlyNightSky/Cognet.git
 ```
 2. Navigate to the page you want to contribute to, then edit the page as you wish
 3. Create a request to add these changes.
